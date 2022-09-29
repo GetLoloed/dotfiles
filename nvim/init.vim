@@ -72,6 +72,15 @@ Plug 'lifepillar/pgsql.vim'
 
 Plug 'zdharma-continuum/zinit-vim-syntax'
 
+" Web Develop
+Plug 'mattn/emmet-vim'
+Plug 'yggdroot/indentline'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'w0rp/ale'
+Plug 'prettier/vim-prettier'
+Plug 'StanAngeloff/php.vim'
+Plug 'stephpy/vim-php-cs-fixer'
+
 call plug#end()
 
 "------------------------------------------------------------------------------

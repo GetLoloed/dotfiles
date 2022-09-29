@@ -81,7 +81,7 @@ precmd ()
 alias ls='ls --color=auto'
 alias ll='ls -l'
 alias v='nvim'
-
+alias win='cd /mnt/c/Users/loica/Desktop'
 # Functions
 mkcd ()
 {
