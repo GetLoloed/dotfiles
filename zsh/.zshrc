@@ -13,6 +13,11 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit installer's chunk
 
+### Start Fzf installer
+if [[ ! -f $HOME/.fzf/bin/fzf]]; then
+	command git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf ~/.fzf/install
+
+
 ## Plugins section
 # Oh-my-zsh libs
 zinit snippet OMZ::lib/history.zsh
