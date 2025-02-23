@@ -41,13 +41,13 @@ This repository contains my personal configuration files for:
 
 ### Quick Start
 ```sh
-Clone the repository
-git clone https://github.com/YOUR_USERNAME/dotfiles.git
-Change directory
+# Clone the repository
+git clone https://github.com/GetLoloed/dotfiles
+# Change directory
 cd dotfiles
-Make the install script executable
+# Make the install script executable
 chmod +x install.sh
-Run the installation
+# Run the installation
 ./install.sh
 ```
 ## 📚 Configurations
